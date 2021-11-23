@@ -15,7 +15,7 @@ export default (props) => {
       <div style={{ flex: 1, display: 'flex' }}>
         <div style={{ background: 'white', width: 200 }}>Master Layout Left</div>
         <div style={{ flex: 1 }}>
-          {props.app(appState)}
+          {props.autoRoute(appState)}
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@
   "main": "./react/routes.js",
   "scripts": {
     "start": "nuwa-boot start -c ./nuwa.config.js",
+    "build": "nuwa-boot build -c ./nuwa.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jyjin",
